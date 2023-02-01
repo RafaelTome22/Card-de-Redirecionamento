@@ -1,0 +1,113 @@
+body{
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.cardW {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100px;
+    background-color: #229954;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cardW:hover {
+    flex: 2;
+    background-color: #2ECC71;   
+}
+
+.cardL {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100px;
+    background-color: #1F618D  ;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cardL:hover {
+    flex: 2;
+    background-color: #3498DB ;   
+}
+
+.cardT {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100px;
+    background-color: 	#811331;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cardT:hover {
+    flex: 2;
+    background-color: 	#AA336A;   
+}
+
+
+.cardI {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100px;
+    background-color: #cb4273;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cardI:hover {
+    flex: 2;
+    background-color: #de3163;   
+}
+
+
+.cardG {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100px;
+    background-color:#212F3D;
+    flex: 1;
+    transition: .3s all ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cardG:hover {
+    flex: 2;
+    background-color: #2C3E50 ;   
+}
+
+
+img {
+    width: 50px;   
+}
+
+a {
+    text-decoration: none;
+}
